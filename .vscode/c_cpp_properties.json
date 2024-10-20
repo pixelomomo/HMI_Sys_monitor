@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "windows-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\Wt 4.10.4 msvs2022 x64\\include",
+                "C:\\Program Files\\MySQL\\MySQL Connector C++ 9.0\\include",
+                "C:\\Program Files\\MySQL\\MySQL Connector C++ 9.0\\include\\jdbc",
+                "C:/msys64/mingw64/include/c++/14.2.0",
+                "C:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32",
+                "C:/msys64/mingw64/include/c++/14.2.0/backward",
+                "C:/msys64/mingw64/include",
+                "C:/msys64/mingw64/x86_64-w64-mingw32/"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0", // Mettez à jour selon votre SDK
+            "compilerPath": "C:\\msys64\\mingw64\\bin\\g++", // Mettez à jour selon votre compilateur
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64" // Changez selon votre compilateur, par exemple "clang-x64" ou "msvc-x64"
+        }
+    ],
+    "version": 4
+}
